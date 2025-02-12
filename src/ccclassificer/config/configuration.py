@@ -1,6 +1,6 @@
 from ccclassificer.utils.common import read_yaml, create_directories
 from ccclassificer.constants import *
-from ccclassificer.entity
+from ccclassificer.entity.config_entity import (DataIngestionConfig)
 
 class ConfigurationManager:
     def __init__(
